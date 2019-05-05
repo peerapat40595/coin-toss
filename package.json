@@ -1,0 +1,23 @@
+{
+  "name": "coin-toss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerapat40595/coin-toss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peerapat40595/coin-toss/issues"
+  },
+  "homepage": "https://peerapat40595.github.io/coin-toss/",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
