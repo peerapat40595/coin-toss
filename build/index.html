@@ -1,1 +1,24 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Head or Tail</title>
+    <link rel="stylesheet" href="myStyles.css">
+</head>
+<body>
+<div class="message">Head or Tail</div>
+<button type="button" class="flip">Flip</button>
+<script>
+    const coinArray = ["Head", "Tail"];
+    const message = document.querySelector(".message");
+    const flipButton = document.querySelector(".flip");
+
+    flipButton.addEventListener("click", tossCoin);
+
+    function tossCoin() {
+        const computerToss = Math.floor(Math.random() * coinArray.length);
+        message.innerHTML = coinArray[computerToss];
+    }
+</script>
+</body>
+</html>

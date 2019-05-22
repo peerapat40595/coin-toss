@@ -17,7 +17,8 @@
     "url": "https://github.com/peerapat40595/coin-toss/issues"
   },
   "homepage": "https://peerapat40595.github.io/coin-toss/",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gh-pages": "^2.0.1"
   }
 }
