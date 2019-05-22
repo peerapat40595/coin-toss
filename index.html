@@ -7,13 +7,13 @@
 </head>
 <body>
 <div class="message">Head or Tail</div>
-<button type="button" class="random">Random</button>
+<button type="button" class="flip">Flip</button>
 <script>
     const coinArray = ["Head", "Tail"];
     const message = document.querySelector(".message");
-    const randomButton = document.querySelector(".random");
+    const flipButton = document.querySelector(".flip");
 
-    randomButton.addEventListener("click", tossCoin);
+    flipButton.addEventListener("click", tossCoin);
 
     function tossCoin() {
         const computerToss = Math.floor(Math.random() * coinArray.length);

@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.message {
+    padding: 10% 0;
+}
+
+.flip {
+    width: 100%;
+    padding: 10% 0;
+}
